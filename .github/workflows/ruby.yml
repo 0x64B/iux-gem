@@ -8,11 +8,9 @@ jobs:
     strategy:
       matrix:
         ruby:
-          - '2.2.x'
           - '2.5.x'
           - '2.6.x'
         rails:
-          - 'rails_3'
           - 'rails_5'
           - 'rails_6'
     steps:
